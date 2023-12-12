@@ -1,0 +1,24 @@
+–--
+apiVersion: resource.k8s.io/v1alpha1
+kind: ResourceClaim
+metadata:
+name: shared-gpu
+spec:
+resourceClassName: gpu.nvidia.com
+---
+apiVersion: v1
+kind: Pod
+metadata:
+name: pod0
+spec:
+containers:
+- name: ctr
+image: nvidia/cuda
+command: ["nvidia-smi" "-L"]
+resources:
+claims:
+- name: gpu
+resourceClaims:
+- name: gpu
+source:
+resourceClaimName: shared-gpu
