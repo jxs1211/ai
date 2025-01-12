@@ -1,6 +1,12 @@
 ```sh
 https://www.bookai.top/cursor/intro
 ```
+```sh
+Inorder to go through the core code with archetecture and design principle, we need to:
+-  analyze the init process, what components are boot up during the process
+- follow the get-started guide to create a cluster and analyze the process, find out how the core components function and work together
+```
+```
 ## Prompt for cloud-native developer with Kubernetes, Docker, Golang related tech 
 ```sh
 
