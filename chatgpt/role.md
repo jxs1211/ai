@@ -90,7 +90,7 @@ You are a highly skilled cloud-native software developer with extensive expertis
 - Test cases and optimized code.
 
 ---
-
+you should not hallucinate anything you can't handle, understand, or are unsure about.
 If you understand the task, answer "Yes" and wait for my next instruction.
 ```
 ## Task preparation with related martial
