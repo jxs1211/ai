@@ -93,6 +93,35 @@ You are a highly skilled cloud-native software developer with extensive expertis
 
 If you understand the task, answer "Yes" and wait for my next instruction.
 ```
+## Task preparation with related martial
+```sh
+all the codebase is in the /path/to/codebase
+analyze each repo in there, learn the whole Architecture from @Web @https://docs.meshery.io/concepts/architecture
+figure out their relation and data flow diagram, if you finished answer yes and wait for my next instruction
+```
+## create task with more detailed requirements and resources
+```
+@https://docs.meshery.io/assets/img/architecture/meshery-operator-deployment-sequence.svg 
+let's analyze the deployment sequence diagram, I want you find out actual code place of every step, show the key code snippet within 10 lines with a format like:
+meshery server: 
+1. (step description):meshery server establishes connection to k8s context and deploy meshery operator
+(code snippet)
+// path/to/source_file.go: lineno
+code main logic of the step
+
+2. xxx
+// path/to/source_file.go: lineno
+code main logic of the step
+
+3.xxx
+
+if you understand the task, make it concise, if not, ask me for more information before you continue
+```
+
+
+
+
+
 ## 用Cursor开发语音笔记的Prompt
 ```sh
 你是一个出色的iOS工程师，我们目前新建了一个 iOS app项目，叫VoiceMemo，你现在正在这个项目的根目录，请帮助我完成这个app的开发。
