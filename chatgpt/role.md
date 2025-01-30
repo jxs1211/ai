@@ -10,7 +10,7 @@ tautological condition: non-nil != nil
 How can I resolve this? If you propose a fix, please make it concise.
 ```
 ```sh
-Inorder to go through the core code with archetecture and design principle, we need to:
+To go through the core code with architecture and design principles, we need to:
 -  analyze the init process, what components are boot up during the process
 - follow the get-started guide to create a cluster and analyze the process, find out how the core components function and work together
 ```
@@ -25,6 +25,8 @@ Inorder to go through the core code with archetecture and design principle, we n
 - 文章的结构遵可以使用用户阅读公众号文章的最佳体验
 - 文章名称要有吸引力切不能让人觉得有明显的AI味或者过于严肃，风格用尽可能像给朋友讲故事的口吻
 
+任务实例：
+用半佛仙人的风格写一篇关于deepseek导致美国科技圈震荡, 进而导致英伟达股价暴跌18%，但是仅仅2天不到，英伟达的股价又强势回归上涨了9%，之前中美AI势力和资本在市场的邹璇很值得分析一下。文章格式需要符合微信公众号的要求，排版符合微信用户阅读习惯，字数参考以往微信公众号爆款文章的篇幅。
 ```
 ## Game developer with Godot4 and Golang
 ```sh
