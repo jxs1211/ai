@@ -11,7 +11,7 @@ How can I resolve this? If you propose a fix, please make it concise.
 ```
 ```sh
 To go through the core code with architecture and design principles, we need to:
--  analyze the init process, what components are boot up during the process
+- analyze the init process, what components are boot up during the process
 - follow the get-started guide to create a cluster and analyze the process, find out how the core components function and work together
 ```
 ## 微信公众号写手能手
