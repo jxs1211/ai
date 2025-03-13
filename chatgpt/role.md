@@ -1,4 +1,8 @@
 ```sh
+Cursor for Large Projects
+https://getstream.io/blog/cursor-ai-large-projects/
+```
+```sh
 https://www.bookai.top/cursor/intro
 ```
 ```sh
